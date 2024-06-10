@@ -1,0 +1,92 @@
+.Contact-title {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+}
+
+.Contact-subtitle {
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Contact-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Contact-obj {
+    width: 30%;
+}
+
+.Contact-obj-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Contact-obj-content {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.Contact-form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Contact-form-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Contact-form form {
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.Contact-form-label {
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+}
+
+.Contact-form input,
+.Contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.Contact-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+    .Contact-title {
+        margin-top: 300px;
+    }
+
+    .Contact-list {
+        flex-direction: column;
+    }
+
+    .Contact-obj {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .Contact-form form {
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        width: 80%;
+    }
+}

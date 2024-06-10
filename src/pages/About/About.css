@@ -1,0 +1,72 @@
+.About-page {
+    min-height: 100vh;
+}
+
+.About-title {
+    font-weight: bold;
+    font-size: 65px;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+
+.About-marks {
+    margin-left: 15%;
+    display: flex;
+}
+
+.About-mark {
+    display: flex;
+    margin-top: 50px;
+}
+
+.About-screen {
+    display: flex;
+}
+
+.About-markgroup {
+    margin-top: 50px;
+}
+
+.About-markgroup:nth-child(1) {
+    margin-right: 200px;
+}
+
+.About-mark div {
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.About-chef {
+    max-height: 600px;
+    width: 30%;
+    margin-top: -100px;
+    margin-left: 10%;
+    transform: translate(-10%, 0);
+    z-index: -1;
+}
+
+@media screen and (max-width: 850px) {
+    .About-title {
+        margin-top: 300px;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .About-screen {
+        flex-direction: column;
+    }
+    .About-marks {
+        width: fit-content;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .About-chef {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 50%;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .About-markgroup:nth-child(1) {
+        margin-right: 100px;
+    }
+}

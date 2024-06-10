@@ -1,0 +1,15 @@
+.MainPageImg-img {
+    max-height: 700px;
+    max-width: 100%;
+    height: auto;
+    transform: translate(-10%, 0);
+    z-index: -1;
+}
+
+@media screen and (max-width: 1200px) {
+    .MainPageImg-img {
+        margin-top: 20px;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+}
